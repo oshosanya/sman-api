@@ -15,7 +15,7 @@ id_number: string
 passport: file
 ```
 
-A file is generated and stored on a s3 bucket, and the url of the file is sent in the response.
+A file is generated and stored on a s3 bucket (Do not forget to create a .env file with your s3 bucket credentials), and the url of the file is sent in the response.
 Feel free to modify the project and store the file instead on your local machine.
 
 Disclaimer: This project is not beautiful, has poor error handling and will probably make you puke.
